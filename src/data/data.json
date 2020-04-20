@@ -1,0 +1,52 @@
+{
+    "profiles":[
+        {
+            "basicInformation":{
+                "name":"vijay",
+                "role":"Developer",
+                "email":"vijaykumar.b@gmail.com",
+                "mobile":"+91 9542219884"
+            },
+            "Education":[
+                {
+                    "Degree":"B.tech",
+                    "institution":"CBIT",
+                    "Percentage":"70%"
+                },
+                {
+                    "Degree":"Diplomo",
+                    "institution":"Gov't Polytechnic college",
+                    "Percentage":"80%"
+                },
+                {
+                    "Degree":"SSC",
+                    "institution":"Little Angels",
+                    "Percentage":"80%"
+                }]
+        },
+        {
+            "basicInformation":{
+                "name":"kumar",
+                "role":"Python Developer",
+                "email":"vijaykumar.b@apssdc.in",
+                "mobile":"+91 8328113925"
+            },
+            "Education":[
+                {
+                    "Degree":"B.tech",
+                    "institution":"CBIT",
+                    "Percentage":"70%"
+                },
+                {
+                    "Degree":"Diplomo",
+                    "institution":"Gov't Polytechnic college",
+                    "Percentage":"80%"
+                },
+                {
+                    "Degree":"SSC",
+                    "institution":"Little Angels",
+                    "Percentage":"80%"
+                }]
+        }
+    ]
+}
