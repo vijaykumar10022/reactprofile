@@ -15,6 +15,7 @@ function App() {
       <section>
         <BrowserRouter>
         <header className="header">
+
         {info.map((k,l)=>(
                 <Link to={{pathname:"/profile",data:{id:l}}}>{"Profile"+(l+1)+" "}</Link>
         ))}
@@ -22,7 +23,7 @@ function App() {
       </header><br></br><br></br>
         <Route exact path="/profile" component={Profile}>
         </Route>
-        <Route exact path="/mydemo" component={home}></Route>
+        <Route exact path="/" component={home}></Route>
         </BrowserRouter>       
         </section>
     )

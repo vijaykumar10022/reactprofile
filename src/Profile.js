@@ -46,21 +46,47 @@ class Profile extends React.Component{
                 <br></br>
 					</div>
 				</div>
+				<div class="child2">
+				<div className="profile">
+				<h2>Profile</h2><hr></hr>
+			<ul>
+				<li>I have been working as a trainer from the past 3 years. Worked for Various companies such as institute for electronic Governance , I'm Currently working for </li>
+				<li>Having Extensive Experince in building of logical modules using C Language.</li>
+				<li>Having Teaching Experince MIT.</li>
+				<li>Having Experince In Source Code Management Using Git&GitHub.</li>
+				<li>Having Knowledge on Data bases like mysql,sql,nosql and PDO</li>
+				<li>Developed few websites using flask along with mysql database.</li>
+				<li>Having Teaching Experince in Data Strucure&Algorithms</li>
+				<li>Having Experince in Machine Learing&Data Visuvalization</li>
+			</ul>
+				</div><br></br>
 				<div className="card2">
+					
 					<div className="card-bottom">
 						<h2> Educational Qualifications</h2>
-					</div>
-					<div className="card-top">
-						{specificprofile.Education.map((i,j)=>(
-							<ul>
-								<li>{i.Degree}</li>
-								<li>{i.institution}</li>
-							</ul>
-						)
-
-						)}
-							
-					</div>
+					</div>				
+			<table border="1px" cellpadding="10px" cellspacing="10px" >
+				<thead>
+					<tr>
+						<td>Degree</td>
+						<td>Institute</td>
+						<td>Percentage</td>
+					</tr>
+				</thead>
+				{specificprofile.Education.map((i,j)=>(
+				<tbody>
+					<tr>
+						<td>{i.Degree}</td>
+						<td>{i.institution}</td>
+						<td>{i.Percentage}</td>
+					</tr>
+					
+				</tbody>
+				)
+				)}
+			</table>
+			
+				</div>
 				</div>
 			</section>
 		)

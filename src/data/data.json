@@ -23,6 +23,7 @@
                     "institution":"Little Angels",
                     "Percentage":"80%"
                 }]
+            
         },
         {
             "basicInformation":{
@@ -38,14 +39,14 @@
                     "Percentage":"70%"
                 },
                 {
-                    "Degree":"Diplomo",
-                    "institution":"Gov't Polytechnic college",
-                    "Percentage":"80%"
+                    "Degree":"Inter",
+                    "institution":"Depthi Junior College",
+                    "Percentage":"90%"
                 },
                 {
                     "Degree":"SSC",
-                    "institution":"Little Angels",
-                    "Percentage":"80%"
+                    "institution":"Pooja Public School",
+                    "Percentage":"90%"
                 }]
         }
     ]
