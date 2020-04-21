@@ -60,6 +60,7 @@ class Profile extends React.Component{
 				<li>Having Experince in Machine Learing&Data Visuvalization</li>
 			</ul>
 				</div><br></br>
+				<div></div>
 				<div className="card2">
 					
 					<div className="card-bottom">
