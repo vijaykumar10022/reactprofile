@@ -23,7 +23,7 @@ function App() {
       </header><br></br><br></br>
         <Route exact path="/profile" component={Profile}>
         </Route>
-        <Route exact path="/" component={home}></Route>
+        <Route exact path="/mydemo" component={home}></Route>
         </BrowserRouter>       
         </section>
     )
@@ -45,11 +45,14 @@ let home=()=>{
                 <a href={"tel:"+i.basicInformation.mobile}>{i.basicInformation.mobile}</a>
                 <br></br>
                 <Link to={{pathname:"/profile",data:{id:index}}}> ViewProfile >></Link>
+                
             </div>
             </div>
+            
 
           ))
         }
+
     </section>
   )
 }

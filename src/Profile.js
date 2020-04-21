@@ -30,9 +30,15 @@ class Profile extends React.Component{
 	render(){
 		var indexValue=this.props.location.data.id;
 		var specificprofile=Data.profiles[indexValue];
+		// var data=specificprofile.skillset.webtechnologies;
+		// var sdata=data.split(" ");
+		// var planguage=specificprofile.
+		
+		
 		// {this.props.data.id}
 		return (
 			<section className="parent">
+				
 				<div className="card">
 					<div className="card-top">
 						<h2>{specificprofile.basicInformation.name}</h2>
@@ -86,8 +92,17 @@ class Profile extends React.Component{
 				)
 				)}
 			</table>
-			
-				</div>
+			</div>
+			<h2>Skill Set</h2><hr></hr>
+			<h3>Web Technologis</h3>
+			<span>{specificprofile.skillset.webtechnologies.split(" ")[0]}</span><span>{specificprofile.skillset.webtechnologies.split(" ")[1]}</span><span>{specificprofile.skillset.webtechnologies.split(" ")[2]}</span>
+			<h3>Programming Language</h3>
+			<span>{specificprofile.skillset.programminglanguages.split(" ")[0]}</span><span>{specificprofile.skillset.programminglanguages.split(" ")[1]}</span>
+			<h3>Operating System</h3>
+				<span>{specificprofile.skillset.operatingsystem.split(" ")[0]}</span><span>{specificprofile.skillset.operatingsystem.split(" ")[1]}</span>			
+			<h3>Frame Works</h3>
+				<span>{specificprofile.skillset.frameworks.split(" ")[0]}</span><span>{specificprofile.skillset.frameworks.split(" ")[1]}</span><span>{specificprofile.skillset.frameworks.split(" ")[2]}</span><span>{specificprofile.skillset.frameworks.split(" ")[3]}</span><span>{specificprofile.skillset.frameworks.split(" ")[4]}</span>
+				
 				</div>
 			</section>
 		)

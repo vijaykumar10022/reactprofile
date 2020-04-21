@@ -22,7 +22,13 @@
                     "Degree":"SSC",
                     "institution":"Little Angels",
                     "Percentage":"80%"
-                }]
+                }],
+            "skillset":{
+                "webtechnologies":"html5 css Javascript",
+                "programminglanguages":"C Java JavaScript",
+                "operatingsystem":"Linux window",
+                "frameworks":"flask django React spring bootstrap"
+            }
             
         },
         {
@@ -47,7 +53,13 @@
                     "Degree":"SSC",
                     "institution":"Pooja Public School",
                     "Percentage":"90%"
-                }]
+                }],
+                "skillset":{
+                    "webtechnologies":"html5 css Javascript",
+                    "programminglanguages":"C Java JavaScript",
+                    "operatingsystem":"Linux window",
+                    "frameworks":"React spring bootstrap flask django"
+                }
         }
     ]
 }
