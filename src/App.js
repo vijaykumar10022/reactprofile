@@ -23,7 +23,7 @@ function App() {
       </header><br></br><br></br>
         <Route exact path="/profile" component={Profile}>
         </Route>
-        <Route exact path="/MyProfile" component={home}></Route>
+        <Route exact path="/" component={home}></Route>
         </BrowserRouter>       
         </section>
     )
